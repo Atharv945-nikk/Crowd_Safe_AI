@@ -302,12 +302,26 @@
         .show-password:hover {
             color: #667eea;
         }
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            border-radius: 20px;
+            color: black;
+            text-decoration: none;
+            background-color:rgb(210, 216, 231);
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
     </style>
 </head>
 <body>
-    <a href="{{ url_for('dashboard') }}" class="back-home">
-        <i class="fas fa-arrow-left"></i>
-        Back to Home
+   <a href="{{ url_for('dashboard') }}" class="back-home">
+        <i class="fas fa-arrow-left back-btn"></i>
+        <span class="back-btn">Back to Home</span>
+       
     </a>
 
     <div class="register-container">
