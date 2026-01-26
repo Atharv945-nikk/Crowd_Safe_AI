@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrowdVision - AI-Powered Crowd Density Monitoring</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
         }
 
         body {
@@ -103,10 +107,16 @@
         }
 
         .hero {
-            margin-top: 80px;
-            padding: 5rem 2rem;
-            text-align: center;
-            color: white;
+                margin-top: 80px;
+                padding: 8rem 2rem; 
+                text-align: center;
+                color: white;
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('/static/background.jpeg');
+                background-size: cover;         
+                background-position: center;    
+                background-repeat: no-repeat;
+                min-height: 650px;            
         }
 
         .hero h1 {
@@ -142,6 +152,10 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
+        }
+
+        .background{
+            padding-top: 80px;
         }
 
         .section-title {
@@ -325,6 +339,9 @@
             
             .nav-container {
                 padding: 0 1rem;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
             }
         }
 
@@ -368,13 +385,18 @@
                 transform: translateX(0);
             }
         }
+        .png{
+            width: 110px;
+            height: 80px;
+        }
+
     </style>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo" id="refreshLogo">
-                <i class="fas fa-video"></i> CrowdVision
+                <img class="png" src="{{ url_for('static', filename='logo.png') }}" alt="khumb logo">
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -407,7 +429,7 @@
     {% endwith %}
 
     <section id="home" class="hero">
-        <div class="container">
+        <div class="container background">
             <h1>AI-Powered Crowd Density Monitoring</h1>
             <p>Revolutionary real-time crowd analysis using advanced computer vision and YOLO deep learning technology. Monitor, analyze, and manage crowd density with professional-grade accuracy.</p>
             <div class="hero-buttons">
@@ -472,7 +494,7 @@
     </section>
 
     <section id="how-it-works" class="how-it-works">
-        <div class="container">
+        <div class="container" >
             <h2 class="section-title">How It Works</h2>
             <div class="steps-grid">
                 <div class="step-card">
@@ -549,7 +571,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 CrowdVision - AI-Powered Crowd Density Monitoring System. Built with ❤️ for safer spaces.</p>
+            <p>&copy; 2026 MahaKumbh - AI-Powered Crowd Density Monitoring System. Built with ❤️ for safer spaces.</p>
         </div>
     </footer>
 

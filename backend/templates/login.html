@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - CrowdVision</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!--Outfit Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
         }
 
         body {
@@ -245,12 +250,28 @@
         .show-password:hover {
             color: #667eea;
         }
+
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            border-radius: 20px;
+            color: black;
+            text-decoration: none;
+            background-color:rgb(210, 216, 231);
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+
     </style>
 </head>
 <body>
     <a href="{{ url_for('dashboard') }}" class="back-home">
-        <i class="fas fa-arrow-left"></i>
-        Back to Home
+        <i class="fas fa-arrow-left back-btn"></i>
+        <span class="back-btn">Back to Home</span>
+       
     </a>
 
     <div class="login-container">

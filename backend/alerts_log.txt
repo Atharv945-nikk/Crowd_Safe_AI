@@ -2,3 +2,12 @@
 [2025-06-19 09:37:54] ALERT: Z5 is in CRITICAL state with 11 people
 [2025-06-19 09:38:09] ALERT: Z5 is in CRITICAL state with 11 people
 [2025-06-19 09:38:20] ALERT: Z5 is in CRITICAL state with 11 people
+[2026-01-26 20:57:02] ALERT: Z9 is in CRITICAL state with 2 people
+[2026-01-26 20:57:26] ALERT: Z5 is in CRITICAL state with 2 people
+[2026-01-26 20:57:33] ALERT: Z5 is in CRITICAL state with 2 people
+[2026-01-26 20:57:38] ALERT: Z5 is in CRITICAL state with 2 people
+[2026-01-26 20:57:40] ALERT: Z5 is in CRITICAL state with 2 people
+[2026-01-26 20:57:41] ALERT: Z5 is in CRITICAL state with 2 people
+[2026-01-26 20:57:47] ALERT: Z5 is in CRITICAL state with 2 people
+[2026-01-26 20:57:49] ALERT: Z5 is in CRITICAL state with 2 people
+[2026-01-26 21:20:41] ALERT: Z5 is in CRITICAL state with 2 people

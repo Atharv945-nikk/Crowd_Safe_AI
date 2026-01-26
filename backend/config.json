@@ -14,9 +14,9 @@
         }
     },
     "zone_thresholds": {
-        "low": 3,
-        "medium": 6,
-        "high": 10
+        "low": 1,
+        "medium": 1,
+        "high": 1
     },
     "server_settings": {
         "host": "0.0.0.0",
