@@ -34,7 +34,7 @@ A professional, real-time crowd density monitoring system using YOLOv8 deep lear
 - **Cross-Platform** - Compatible with Windows, macOS, and Linux
 - **Configurable Settings** - Customizable thresholds and parameters
 
-## 🚀 Quick Start
+## 🚀 Quick Start 
 
 ### Prerequisites
 - Python 3.8 or higher
